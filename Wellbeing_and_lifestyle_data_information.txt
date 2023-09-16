@@ -1,0 +1,139 @@
+Data Dictionary in the DataFrame total 24 columns 
+
+Timestamp: date survey was completed
+FRUITS_VEGGIES: Fruit/Veg count per day
+DAILY_STRESS: Stress average per day 
+PLACES_VISITED: New places (new states, new cities as well as museum, places of interest and parks in your neighborhood) visited per year
+CORE_CIRCLE: Close people
+SUPPORTING_OTHERS: How many people do you help achieve a better life
+SOCIAL_NETWORK: Avg. number of people interacted with per day
+ACHIEVEMENT: Number of remarkable achievements the responder is proud of
+DONATION: Frequency donated per year
+BMI_RANGE: 1: below 25, 2: below 25 
+TODO_COMPLETED: Scale of 0-10, weekly to-do list completion
+FLOW: Hours of 'Flow' experienced per day
+DAILY_STEPS: In thousands, step count
+LIVE_VISION: Years planned ahead
+SLEEP_HOURS: Avg daily hours slept
+LOST_VACATION: Unused vacation days
+DAILY_SHOUTING: Number of times shouting or sulking 
+SUFFICIENT_INCOME: 1: insufficient income, 2: sufficient income 
+PERSONAL_AWARDS: Significant awards such as diploma, degree, certificate, accreditation, award, prize, published book, presentation at major conference, medals, cups, titles...
+TIME_FOR_PASSION: Hours a day spent on passion
+WEEKLY_MEDITATION: Hours spent per week on meditation, praying, and relaxation activities such as fitness
+AGE: Less than 20, 12-35, 36-50, 51+
+GENDER: Female or Male
+WORK_LIFE_BALANCE_SCORE: The overall score
+
+
+-->>>Here frequency means number of peoples
+
+>>>> 1st Graph shows how many people are eating veggies count per day
+
+>>>> 2nd Graph tells that the happiness for the the people 
+conclusion for this is highest number of peoples(~1600) aare having the average balance score (~ 650- ~700)
+
+
+
+>>>>> removed unnecessary colums like Timestamp, FLOW, DAILY_SHOUTING, LOST_VACATION and assigned to new DataFrame .... newLife......
+>>>>> now total 20 columns
+
+
+>>> For the analyis i compared with top 1000 people with bottom 1000 people ( topthousand and botthousand)
+with from sorting the column .... work_life_balance_score .....
+which means top 1000 will be having the best balance_score and bottom 1000 worst balance_score
+
+
+
+>>>> for every bot and top thousand find out the age categories and gender
+top--> ages
+
+51 or more      347
+36 to 50        316
+21 to 35        251
+Less than 20     86
+
+
+top--> gender
+
+Female    598
+Male      402
+
+
+bottom --> ages
+
+21 to 35        464
+36 to 50        284
+51 or more      134
+Less than 20    118
+
+
+bottom --> gender
+
+Female    574
+Male      426
+
+
+>>>> made some plot aganist stress vs happiness for the the both top and bottom 1000
+
+.... results showed that top were good in everytime compared to bottom 1000
+
+
+>>>>>> took the mean for all the colums for both top and bottom 1000 and gets the values of it and stored all it in a list 
+
+.... topMeanVal =[]
+
+.... botMeanVal =[]
+
+
+and plot a bar graph aganist bot and top and comapred where in every aspects top were greater than bottom peoples
+
+
+
+>>> took a top_young_peoples list belonging to the age from 21 to 35 having balance_style > 732
+
+>>> seperated gender and got to know that females(3541)> males(2567)
+
+>>> took  the mean from the young_top_peoples and stored in list
+
+>>> now comapred with top 1000 with young_high_peoples where we got to know that young_high_peoples wew doing high performance than top 1000
+
+
+>
+
+
+
+.............
+
+
+took a new 3 list for the 3 categories of people
+
+then took mean for all 3 cat peoples for the column core_circle, supporiting_others, social_network..
+
+
+
+>>for core_circle
+
+below<20 has 1 position
+36-50  has 2 poition
+21-53 has 3 position
+
+
+
+
+>>for supporting_others
+
+below<20 has 3 position
+36-50  has 1 poition
+21-53 has 2 position
+
+
+>>for social_netwok
+
+below<20 has 1 position
+36-50  has 2 poition
+21-53 has 3 position
+
+
+
+
