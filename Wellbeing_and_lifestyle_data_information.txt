@@ -1,5 +1,16 @@
 Data Dictionary in the DataFrame total 24 columns 
 
+
+Your Work-Life Balance survey evaluates how we thrive in both your professional and personal lives: it reflects how well you shape your lifestyle, habits and behaviors to maximize your overall life satisfaction along the following five dimensions:
+1. Healthy body, reflecting your fitness and healthy habits;
+2. Healthy mind, indicating how well you embrace positive emotions;
+3. Expertise, measuring the ability to grow your expertise and achieve something unique;
+4. Connection, assessing the strength of your social network and your inclination to discover the world;
+5. Meaning, evaluating your compassion, generosity and how much 'you are living the life of your dream'.
+
+
+
+
 Timestamp: date survey was completed
 FRUITS_VEGGIES: Fruit/Veg count per day
 DAILY_STRESS: Stress average per day 
